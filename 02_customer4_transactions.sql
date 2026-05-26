@@ -1,7 +1,7 @@
 -- MySQL Transactions - Customer4 rollback and commit examples
 -- Explicit transaction examples using ROLLBACK and COMMIT.
 
-USE lab10_transactions;
+USE mysql_transactions;
 
 DROP TABLE IF EXISTS customer4;
 

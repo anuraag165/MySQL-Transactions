@@ -1,9 +1,9 @@
 -- MySQL Transactions - Customer3 rollback example
 -- Introduction to ROLLBACK behavior in MySQL.
 
-DROP DATABASE IF EXISTS lab10_transactions;
-CREATE DATABASE lab10_transactions;
-USE lab10_transactions;
+DROP DATABASE IF EXISTS mysql_transactions;
+CREATE DATABASE mysql_transactions;
+USE mysql_transactions;
 
 DROP TABLE IF EXISTS customer3;
 

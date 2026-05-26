@@ -1,9 +1,9 @@
 -- MySQL Transactions - Order transaction script
 -- Transaction script.
--- Run this script by copying and pasting it into the MySQL shell, as the lab asks.
+-- Run this script by copying and pasting it into the MySQL shell.
 -- Each run creates one new order using the next order number.
 
-USE lab10_transactions;
+USE mysql_transactions;
 
 START TRANSACTION;
 
@@ -53,6 +53,6 @@ JOIN customer_order c
     ON o.cus_code = c.cus_code
 ORDER BY o.order_number;
 
--- Useful for Task 3 question 2(a).
+-- Useful for checking the highest order number after repeated execution.
 SELECT MAX(order_number) AS max_order_number
 FROM orders;

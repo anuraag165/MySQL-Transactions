@@ -1,8 +1,8 @@
 -- MySQL Transactions - Order tables setup
 -- Self-contained create tables script.
--- Run this file once before running 04_task3_transaction.sql.
+-- Run this file once before running 04_order_transaction.sql.
 
-USE lab10_transactions;
+USE mysql_transactions;
 
 DROP TABLE IF EXISTS order_line;
 DROP TABLE IF EXISTS orders;
