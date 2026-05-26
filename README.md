@@ -5,13 +5,13 @@ It is designed as a reference/tutorial for understanding how transactions help m
 
 ---
 
-## Programmer
+## 👨‍💻 Programmer
 
 Anuraag Raj
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 * `01_task1_customer3.sql`
   Contains SQL commands for:
@@ -47,7 +47,7 @@ Anuraag Raj
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 Open MySQL Workbench or the MySQL command line and run the scripts in this order:
 
@@ -62,7 +62,7 @@ Run `04_task3_transaction.sql` a second time to see how the results change after
 
 ---
 
-## What You Will See
+## 📝 What You Will See
 
 * A `customer3` table showing that rollback does not undo changes already committed by autocommit
 * A `customer4` table showing how explicit transactions can undo changes with `ROLLBACK`
@@ -72,7 +72,7 @@ Run `04_task3_transaction.sql` a second time to see how the results change after
 
 ---
 
-## Learning Outcomes
+## 🎯 Learning Outcomes
 
 * Understand the purpose of transactions in MySQL
 * Learn how `START TRANSACTION`, `ROLLBACK`, and `COMMIT` work
@@ -82,7 +82,7 @@ Run `04_task3_transaction.sql` a second time to see how the results change after
 
 ---
 
-## Explanation Notes
+## 📖 Explanation Notes
 
 ### Customer3 Rollback
 
@@ -119,7 +119,7 @@ Each time the transaction script is run, it finds the current maximum order numb
 
 ---
 
-## Notes
+## 📌 Notes
 
 * MySQL normally runs with autocommit enabled.
 * `ROLLBACK` only undoes changes that are part of an active uncommitted transaction.
