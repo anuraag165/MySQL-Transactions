@@ -13,7 +13,7 @@ Anuraag Raj
 
 ## 📂 Project Structure
 
-* `01_task1_customer3.sql`
+* `01_customer3_rollback.sql`
   Contains SQL commands for:
 
   * Creating the `customer3` table
@@ -21,7 +21,7 @@ Anuraag Raj
   * Updating a customer record
   * Running `ROLLBACK` without an explicit transaction
 
-* `02_task2_customer4.sql`
+* `02_customer4_transactions.sql`
   Contains SQL commands for:
 
   * Creating the `customer4` table
@@ -29,13 +29,13 @@ Anuraag Raj
   * Running a transaction with `COMMIT`
   * Comparing committed and rolled-back changes
 
-* `03_task3_create_tables.sql`
+* `03_order_tables_setup.sql`
   Contains SQL commands for:
 
   * Creating customer, product, order, and order-line tables
   * Inserting sample order-processing data
 
-* `04_task3_transaction.sql`
+* `04_order_transaction.sql`
   Contains SQL commands for:
 
   * Starting a transaction
@@ -52,13 +52,13 @@ Anuraag Raj
 Open MySQL Workbench or the MySQL command line and run the scripts in this order:
 
 ```sql
-SOURCE 01_task1_customer3.sql;
-SOURCE 02_task2_customer4.sql;
-SOURCE 03_task3_create_tables.sql;
-SOURCE 04_task3_transaction.sql;
+SOURCE 01_customer3_rollback.sql;
+SOURCE 02_customer4_transactions.sql;
+SOURCE 03_order_tables_setup.sql;
+SOURCE 04_order_transaction.sql;
 ```
 
-Run `04_task3_transaction.sql` a second time to see how the results change after repeated execution.
+Run `04_order_transaction.sql` a second time to see how the results change after repeated execution.
 
 ---
 
